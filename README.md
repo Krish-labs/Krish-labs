@@ -1,50 +1,90 @@
 <div align="center">
 
-<h1><code>krish@github:~$ whoami</code></h1>
+# Krish Gupta
 
-**Krish Gupta** · AI/ML Engineer · GenAI Developer
+**AI/ML Engineer · GenAI Developer**
 
-Building practical AI systems, agentic workflows, and reliable data products.
+I build practical AI systems—from machine learning models to retrieval-augmented and agentic workflows.
 
-<p><a href="https://www.linkedin.com/in/krish-gupta-exe/">LinkedIn</a> · <a href="https://github.com/Krish-labs">GitHub</a></p>
+[LinkedIn](https://www.linkedin.com/in/krish-gupta-exe/) · [GitHub](https://github.com/Krish-labs) · [Email](mailto:krishgupta.exe@gmail.com)
 
 </div>
 
 ---
 
-<div align="center">
+## About
 
-<h3><code>krish@github:~$ ./contributions.sh</code></h3>
+- Developing **agentic AI and RAG systems** with retrieval, tool use, and workflow orchestration.
+- Interested in **reliable ML engineering**, data pipelines, evaluation, and deployment.
+- Exploring **LangGraph, vector search, Databricks, and production-minded AI patterns**.
 
-<img src="./contrib-heatmap.svg" width="860" alt="Animated GitHub contribution calendar" />
-
-<h3><code>krish@github:~$ whoami --details</code></h3>
+## Featured projects
 
 <table>
   <tr>
-    <td valign="top" align="center"><img src="./krish-ascii.svg" width="370" alt="Animated monochrome ASCII portrait" /></td>
-    <td valign="top"><img src="./info-card.svg" width="490" alt="Animated terminal-style information card" /></td>
+    <td width="50%" valign="top">
+
+### Agentic AI DataOps Copilot
+
+A workflow-oriented copilot for pipeline incident analysis, root-cause investigation, knowledge retrieval, and guided remediation.
+
+**Focus:** LangGraph · RAG · Python · Databricks · PySpark
+
+</td>
+    <td width="50%" valign="top">
+
+### Credit Risk Assessment
+
+Machine-learning models comparing Logistic Regression, Decision Tree, and XGBoost for credit-risk classification.
+
+**Reported results:** ROC-AUC 0.88 · F1 improved ~12% over baseline
+
+[View repository →](https://github.com/Krish-labs/CreditRisk_Model)
+
+</td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+
+### AI-Powered Calculator
+
+An AI-assisted calculator inspired by handwritten-math workflows, combining TensorFlow with the Gemini Flash API.
+
+**Focus:** computer vision · model integration · interactive AI
+
+</td>
+    <td width="50%" valign="top">
+
+### ML Projects
+
+Forecasting, churn prediction, and chatbot experiments built while developing practical machine-learning skills.
+
+**Tools:** Python · Pandas · scikit-learn · XGBoost · Streamlit
+
+[Explore repositories →](https://github.com/Krish-labs?tab=repositories)
+
+</td>
   </tr>
 </table>
 
-</div>
+## Technical toolkit
 
-## <code>krish@github:~$ cat currently_building.txt</code>
+| Area | Tools |
+|---|---|
+| Languages & data | Python, SQL, C/C++, Pandas, NumPy, PySpark |
+| Machine learning | scikit-learn, XGBoost, TensorFlow |
+| GenAI | RAG, embeddings, vector databases, LangChain, LangGraph |
+| Apps & delivery | FastAPI, Streamlit, Git, GitHub Actions |
+| Data platforms | Databricks, cloud fundamentals |
 
-- **Agentic AI & DataOps:** workflow orchestration, incident analysis, RAG, tool calling, and human-in-the-loop approvals.
-- **Retrieval systems:** embeddings, hybrid search, metadata-aware filtering, semantic reranking, and source citations.
-- **ML engineering:** model development, evaluation, APIs, and deployment.
+## GitHub activity
 
-## <code>krish@github:~$ tech --stack</code>
-
-<code>Python</code> <code>SQL</code> <code>PySpark</code> <code>scikit-learn</code> <code>XGBoost</code> <code>TensorFlow</code> <code>LangGraph</code> <code>LangChain</code> <code>RAG</code> <code>Vector Databases</code> <code>FastAPI</code> <code>Streamlit</code> <code>Databricks</code> <code>GitHub Actions</code>
-
-## <code>krish@github:~$ contact</code>
-
-- LinkedIn: [krish-gupta-exe](https://www.linkedin.com/in/krish-gupta-exe/)
-- Email: [krishgupta.exe@gmail.com](mailto:krishgupta.exe@gmail.com)
+<p>
+  <img src="./contrib-heatmap.svg" width="720" alt="GitHub contribution calendar" />
+</p>
 
 ---
 
-<sub>Repository-owned SVGs · Python-generated contribution calendar · Refreshed daily with GitHub Actions</sub>
-
+<p align="center">
+  <sub>Focused on useful AI, thoughtful engineering, and continuous learning.</sub>
+</p>
