@@ -1,0 +1,43 @@
+name: Update profile art
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - ".github/workflows/update-profile-art.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  heatmap:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out profile repository
+        uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+          cache-dependency-path: scripts/requirements-daily.txt
+      - name: Install lightweight dependencies
+        run: python -m pip install -r scripts/requirements-daily.txt
+      - name: Fetch real contribution data
+        run: python scripts/fetch_contributions.py
+      - name: Render contribution SVG
+        run: python scripts/render_heatmap_svg.py
+      - name: Render ASCII portrait SVG
+        run: python scripts/make_ascii_svg.py
+      - name: Render info card
+        run: python scripts/make_info_card.py
+      - name: Commit generated art
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh animated profile art [skip ci]"
+          file_pattern: "data/contributions.json contrib-heatmap.svg krish-ascii.svg info-card.svg"
