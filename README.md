@@ -77,12 +77,6 @@ Forecasting, churn prediction, and chatbot experiments built while developing pr
 | Apps & delivery | FastAPI, Streamlit, Git, GitHub Actions |
 | Data platforms | Databricks, cloud fundamentals |
 
-## GitHub activity
-
-<p>
-  <img src="./contrib-heatmap.svg" width="720" alt="GitHub contribution calendar" />
-</p>
-
 ---
 
 <p align="center">
