@@ -380,7 +380,7 @@
 <rect class="cell" x="809" y="38" width="11" height="11" rx="3" fill="#161b22" style="animation-delay:918ms"><title>0 contributions on 2026-10-04</title></rect>
 <rect class="cell" x="809" y="53" width="11" height="11" rx="3" fill="#161b22" style="animation-delay:936ms"><title>0 contributions on 2026-10-05</title></rect>
 <rect class="cell" x="809" y="68" width="11" height="11" rx="3" fill="#161b22" style="animation-delay:954ms"><title>0 contributions on 2026-10-06</title></rect>
-<rect class="cell" x="809" y="83" width="11" height="11" rx="3" fill="#161b22" style="animation-delay:972ms"><title>0 contributions on 2026-10-07</title></rect>
+<rect class="cell" x="809" y="83" width="11" height="11" rx="3" fill="#0e4429" style="animation-delay:972ms"><title>0 contributions on 2026-10-07</title></rect>
 <rect class="cell" x="809" y="98" width="11" height="11" rx="3" fill="#161b22" style="animation-delay:990ms"><title>0 contributions on 2026-10-08</title></rect>
 <rect class="cell" x="809" y="113" width="11" height="11" rx="3" fill="#161b22" style="animation-delay:1008ms"><title>0 contributions on 2026-10-09</title></rect>
 <rect class="cell" x="809" y="128" width="11" height="11" rx="3" fill="#161b22" style="animation-delay:1026ms"><title>0 contributions on 2026-10-10</title></rect>
@@ -388,7 +388,8 @@
 <rect class="cell" x="824" y="53" width="11" height="11" rx="3" fill="#161b22" style="animation-delay:954ms"><title>0 contributions on 2026-10-12</title></rect>
 <rect class="cell" x="824" y="68" width="11" height="11" rx="3" fill="#161b22" style="animation-delay:972ms"><title>0 contributions on 2026-10-13</title></rect>
 <rect class="cell" x="824" y="83" width="11" height="11" rx="3" fill="#39d353" style="animation-delay:990ms"><title>0 contributions on 2026-10-14</title></rect>
-<rect class="cell" x="824" y="98" width="11" height="11" rx="3" fill="#161b22" style="animation-delay:1008ms"><title>0 contributions on 2026-10-15</title></rect>
+<rect class="cell" x="824" y="98" width="11" height="11" rx="3" fill="#0e4429" style="animation-delay:1008ms"><title>0 contributions on 2026-10-15</title></rect>
+<rect class="cell" x="824" y="113" width="11" height="11" rx="3" fill="#0e4429" style="animation-delay:1026ms"><title>0 contributions on 2026-10-16</title></rect>
 <text x="22" y="174" font-size="11" class="bright">0 contributions</text>
 <text x="205" y="174" font-size="11" class="muted">Current streak: 0 days</text>
 <text x="655" y="174" font-size="9" class="muted">Less</text>
